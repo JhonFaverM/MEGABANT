@@ -1,11 +1,16 @@
+.container {
+    background-color: #252525;
+}
+
 .sobre-nosotros {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    background-color: #252525;
 }
 
 .sobre_nosotros__titulo {
-    color: var(--fuente-ceniza-oscuro);
-    font-weight: 700;
+    color: #18CF9B;
+    font-weight: 600;
     font-size: 1.5rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
@@ -16,18 +21,29 @@
 .sobre_nosotros__texto {
     line-height: normal;
     margin-bottom: 1rem;
+    color: aliceblue;
 }
 
-.sobre_nosotros__plataformas {
+ .sobre_nosotros__plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .sobre-nosotros {
-    color: var(--fuente-ceniza-oscuro);
+    background-color:#252525;
+    /*color: var(--fuente-ceniza-oscuro);*/
     font-weight: 700;
 }
+
+.plataformas {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+
 
 /*tablet*/

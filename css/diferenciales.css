@@ -1,6 +1,7 @@
 .diferenciales {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+    background-color:#252525;
 }
 
 .diferenciales__lista {
@@ -14,12 +15,12 @@
     box-sizing: border-box;
     padding: 2rem 0 2rem 5rem;
     background-repeat: no-repeat;
-    background-position: top 1.25rem left 2.5rem;/*1.25rem baja el icono, 2.5rem lo mueve orizontal*/ 
+    background-position: top 1.25rem left 2.5rem;
 }
 
 .item__titulo {
-    color: var(--fuente-ceniza-oscuro);
-    font-weight: 700;
+    color: #18CF9B;
+    font-weight: 600;
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -27,6 +28,7 @@
 
 .item__texto {
     line-height: normal;
+    color: aliceblue;
 }
 
 .diferenciales_item-reloj{
@@ -43,7 +45,7 @@
 
 @media screen and (min-width: 1024px) {
     .diferenciales{
-        background-color: var(--background-ceniza-claro);
+        background-color:#252525;
         justify-content: space-around;
     }
     
